@@ -37,6 +37,18 @@
 
   });
 }(jQuery));
+
+const $article = document.querySelector('article')
+const $progress = document.querySelector('.progress-bar')
+console.log($progress)
+
+if ($progress) {
+  document.addEventListener('scroll', function() {
+    const y = window.pageYOffset | document.body.scrollTop
+    const percent = y < document.documentElement.clientHeight ? 0 : (y - document.documentElement.clientHeight) / ($article.clientHeight - document.documentElement.clientHeight * 2) * 100
+    $progress.style.setProperty('--scroll', Math.floor(percent) + '%');
+  });
+}
 </script>
 {% if site.google_analytics %}
 {% include google_analytics.html %}
