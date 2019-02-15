@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
+title: What is Parabible?
 permalink: /about/
 ---
-
-# What is Parabible?
-
 [Parabible](https://parabible.com) is a tool that seeks to unlock the original languages of Greek, Hebrew and Aramaic as tools for Biblical study. Unlike Accordance or Logos, though, you don't need to buy and install it! Instead, Parabible runs in entirely within your browser which means that if you are reading this page, you can probably use Parabible.
 
 The most basic use case of Parabible is to **read the Bible**. Just visit [https://parabible.com/Ruth/1](https://parabible.com/Ruth/1) and you will be presented with the text of Ruth 1. You can also easily add parallel texts. We have Hebrew (BHS), Greek LXX (Rahlfs), and English (NET) texts for the Old Testament. In addition to the English NET for the New Testament, we also have the SBL Greek NT along with its apparatus. Reading the text comfortably is the first priority.
