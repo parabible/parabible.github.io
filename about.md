@@ -4,14 +4,17 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+# What is Parabible?
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+[Parabible](https://parabible.com) is a tool that seeks to unlock the original languages of Greek, Hebrew and Aramaic as tools for Biblical study. Unlike Accordance or Logos, though, you don't need to buy and install it! Instead, Parabible runs in entirely within your browser which means that if you are reading this page, you can probably use Parabible.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+The most basic use case of Parabible is to **read the Bible**. Just visit [https://parabible.com/Ruth/1](https://parabible.com/Ruth/1) and you will be presented with the text of Ruth 1. You can also easily add parallel texts. We have Hebrew (BHS), Greek LXX (Rahlfs), and English (NET) texts for the Old Testament. In addition to the English NET for the New Testament, we also have the SBL Greek NT along with its apparatus. Reading the text comfortably is the first priority.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+The second way Parabible can help you read the Bible is by exposing metadata. Each word in the original languages is encoded with details like part of speech, tense, person, number, and gender. Just **click on a word** and you will be presented with a number of details about it (and more are available if you enable them in the settings).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Finally, Parabible was originally built to help users **perform searches**.\* Once you've clicked on a word, click on details about it to highlight them and then "Add" a search term. You can search for multiple words in the same phrase, clause, sentence, and verse and you can also filter the books you search in using the options menu.
+
+Try it out and feel free to use the little smiley face on the left to submit feedback! All the code is available on [github](https://github.com/parabible/), feel free to peruse it and make a pull request!
+
+
+\* _Right now, searching is only available for the BHS. Updates that will enable searching the whole Bible will be coming by the end of 2019._
