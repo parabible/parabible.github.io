@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Parabible Tutorial"
-date:   2019-02-10 14:34:25
+date:   2019-03-18 11:11:25
 categories: tutorials
 tags: how-to, basic-usage, morphology, hebrew, greek, navigation, bible
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
