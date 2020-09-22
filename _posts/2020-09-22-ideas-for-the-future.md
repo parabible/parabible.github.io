@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ideas for the Future"
+title:  "Parabible: Peering into the Future"
 date:   2020-09-22 14:34:25
 categories: technical
 tags: technical
@@ -17,7 +17,7 @@ So here's a brief summary:
 1. I've got the search results window half rewritten with pagination in order to help mitigate the previous problem (but this raises backend questions as well).
 1. I'm considering tearing search results out of the main window because (1) it might help with performance and (2) it might give me an opportunity to create some system of sharable searches which I think would be pretty awesome. I don't really have a good idea about how to make (2) happen though with just urls (other than storing searches on the server, which is not preferable because right now parabible is stateless) which is delaying this ever becoming reality...
 1. Along the lines of abandoning react, I'm considering spectre.css (which may require a bunch of work to get it into a component framework). But I've looked at bulma and actually, I came up with my own design: <https://jcuenod.github.io/labs/app.html>
-1. I have this NLP thing that I think could be awesome as a way of building a search but I don't think it's going to be > 70% reliable so it really needs to be the secondary way of doing searches (also the API for it is owned by facebook and they're forcing me to log in with facebook, which I can't do because I've never had an fb account and I refuse to get one). So I'll need to retrain the language model anyway but I'd love to do this with OpenAI's GPT-3 api if that were at all possible... This is honestly near the bottom of the list of priorities because the pace at which NLP is improving makes the cost of working on it when it takes a lot of work now very high.
+1. I have this NLP thing that I think could be awesome as a way of building a search but I don't think it's going to be > 70% reliable so it really needs to be the secondary way of doing searches (also the API for it is owned by facebook and they're forcing me to log in with facebook, which I can't do because I've never had an fb account and I refuse to get one). So I'll need to retrain the language model anyway but I'd love to do this with OpenAI's GPT-3 api if that were at all possible... This is honestly near the bottom of the list of priorities because the pace at which NLP is improving makes the cost of working on it when it takes a lot of work now very high. The initial version can be seen here (but not at all implemented into parabible, just using it as a backend): <https://jcuenod.github.io/nlp/>
 
 # Backend:
 1. Search results just get returned in a gigantic lump (and get truncated if there are too many [I think > 500]). I want to rather give a gigantic lump of nodes (or maybe a bunch of pages of nodes but I don't store the search and its results on the server and I don't know whether I want to rerun the search every time a new page is requested). Anyway, returning a bunch of nodes and having an API to return verses by node so the client can request individual verses is the direction I'm trying to go.
